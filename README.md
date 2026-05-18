@@ -1,10 +1,12 @@
-# TORETO GYM
+# 🏋️ TORETO GYM
 
-Sistema web de gestión fitness para administrar clientes, membresías, pagos, asistencias, rutinas, ejercicios, reportes y notificaciones.
+Sistema de gestión completo para gimnasios desarrollado con React, Node.js, Express y MySQL.
 
-## Tecnologías
+---
 
-### Frontend
+# 🚀 Tecnologías utilizadas
+
+## Frontend
 - React
 - Vite
 - React Router DOM
@@ -13,53 +15,81 @@ Sistema web de gestión fitness para administrar clientes, membresías, pagos, a
 - jsPDF
 - XLSX
 
-### Backend
+## Backend
 - Node.js
 - Express
-- MySQL
 - JWT
 - bcryptjs
 - dotenv
 
-### Base de datos
+## Base de Datos
 - MySQL
 - phpMyAdmin
 - XAMPP
 
-## Funcionalidades principales
+---
+
+# ✨ Funcionalidades principales
 
 - Login con autenticación JWT
-- Gestión de roles
-- CRUD de clientes
-- CRUD de membresías
-- Asignación de membresías a clientes
+- Gestión de clientes
+- Gestión de membresías
 - Registro de pagos
-- Generación de boletas PDF
-- Exportación de reportes PDF y Excel
 - Control de asistencias
 - Gestión de entrenadores
 - Gestión de ejercicios
 - Gestión de rutinas
-- Registro de progreso
+- Rutina ejercicios
+- Dashboard administrativo
+- Reportes PDF y Excel
 - Notificaciones automáticas
-- Dashboard con métricas
+- Diseño responsive
+- Interfaz moderna premium
 
-## Roles del sistema
+---
 
-- ADMINISTRADOR
-- RECEPCIONISTA
-- ENTRENADOR
-- CLIENTE
+# 📸 Capturas del sistema
 
-## Flujo principal
+## Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-Cliente → Membresía → Pago → Boleta → Asistencia → Rutina → Reporte
+---
 
-## Instalación
+## Clientes
+![Clientes](./screenshots/clientes.png)
 
-### Backend
+---
+
+## Membresías
+![Membresias](./screenshots/membresias.png)
+
+---
+
+## Pagos
+![Pagos](./screenshots/pagos.png)
+
+---
+
+## Reportes
+![Reportes](./screenshots/reportes.png)
+
+---
+
+## Asistencias
+![Asistencias](./screenshots/asistencias.png)
+
+---
+
+## Notificaciones
+![Notificaciones](./screenshots/notificaciones.png)
+
+---
+
+# ⚙️ Instalación
+
+## Backend
 
 ```bash
-cd toreto_gym_backend
+cd toreto_gym_backend_QA_CORREGIDO
 npm install
 npm run dev
